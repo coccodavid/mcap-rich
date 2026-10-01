@@ -16,12 +16,9 @@ The native `mcap` CLI tool is incredibly fast, but it runs silently. This wrappe
   <img src="https://via.placeholder.com/800x150.png?text=Add+a+GIF+of+the+progress+bar+here!" alt="mcap-rich demo">
 </p>
 
-## Prerequisites
+## Installation
 
-This is a wrapper, meaning the official `mcap` CLI tool must be installed on your system and accessible in your `$PATH`.
+Install the wrapper globally via PyPI:
 
-If you don't have it, download the binary from [Foxglove's GitHub releases](https://github.com/foxglove/mcap/releases?q=mcap-cli) and place it in your local bin directory:
 ```bash
-wget [https://github.com/foxglove/mcap/releases/download/mcap-cli%2FvX.X.X/mcap-linux-amd64](https://github.com/foxglove/mcap/releases/download/mcap-cli%2FvX.X.X/mcap-linux-amd64) -O mcap
-chmod +x mcap
-mv mcap ~/.local/bin/
+pip install mcap-rich-cli
