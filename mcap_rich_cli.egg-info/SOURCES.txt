@@ -1,0 +1,8 @@
+mcap_rich.py
+pyproject.toml
+mcap_rich_cli.egg-info/PKG-INFO
+mcap_rich_cli.egg-info/SOURCES.txt
+mcap_rich_cli.egg-info/dependency_links.txt
+mcap_rich_cli.egg-info/entry_points.txt
+mcap_rich_cli.egg-info/requires.txt
+mcap_rich_cli.egg-info/top_level.txt

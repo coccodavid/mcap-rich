@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: mcap-rich-cli
+Version: 0.2.0
+Summary: A rich visual wrapper for the mcap CLI tool
+Requires-Python: >=3.8
+Requires-Dist: rich>=13.0.0
