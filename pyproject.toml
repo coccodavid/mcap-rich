@@ -4,12 +4,19 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mcap-rich-cli"
-version = "0.2.0"
+version = "0.2.2"
+authors = [
+  { name = "Davide Cocco" }
+]
+license = { text = "MIT" }
 description = "A rich visual wrapper for the mcap CLI tool"
+readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
     "rich>=13.0.0"
 ]
+[project.urls]
+Homepage = "https://github.com/coccodavid/mcap-rich"
 
 [project.scripts]
 mcap-rich = "mcap_rich:main"
